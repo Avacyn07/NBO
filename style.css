@@ -269,6 +269,20 @@ p::first-line {
     margin: 2em auto;    
 }
 
+.Logo1 {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 5px;
+}
+
+.Logo2 {
+    width: 120px;
+    float: center;
+    margin: 0 20px 20px 0;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
