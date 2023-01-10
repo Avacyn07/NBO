@@ -97,28 +97,32 @@ footer {
 }
 
 form {
+    text-align: center;
     margin: 40px 0;
 }
 
 form label, form legend {
+    text-align: center;
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
 .input-padrao {
+    text-align: center;
     display: block;
-    margin: 0 0 20px;
+    margin: 0 640px 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 30%;
 }
 
 .checkbox {
+    
     margin: 20px 0;
 }
 
 .envia {
-    width: 40%;
+    width: 30%;
     padding: 15px 0;
     background: orange;
     color: white;
@@ -253,6 +257,20 @@ p::first-line {
     font-weight: bold;
 }
 
+.conteudo {
+    float: center;
+    border: 3px solid #000000;
+    margin: 0 0 0 230px;
+    opacity: 0.3;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    border-radius: 5px;
+}
+
+.conteudo:hover {
+    opacity: 1;
+}
+
 .imagem-beneficios {
     width: 60%;  
     opacity: 0.3;
@@ -276,12 +294,7 @@ p::first-line {
     border-radius: 5px;
 }
 
-.Logo2 {
-    width: 120px;
-    float: center;
-    margin: 0 20px 20px 0;
-    border-radius: 5px;
-}
+
 
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
