@@ -154,6 +154,47 @@ td, th {
     padding: 8px 15px;
 }
 
+section {
+    background: linear-gradient(#d3b575,#574928);
+    color:rgb(12, 12, 12) ;
+    background-image: linear-gradient(90deg, #d3b575 0%, #574928);
+    padding-top: 4px;
+    
+}
+
+section div {
+    background-color: #3a2e12;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    
+}
+
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+     color: #535050;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+section ul li{
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
 /*css da gaina inicial*/
 .banner {
     width: 100%;
